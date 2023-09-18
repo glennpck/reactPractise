@@ -21,11 +21,13 @@ import PureComp from './components/PureComp'
 import ParentComp from './components/ParentComp';
 import './appStyles.css'
 import styles from './appStyles.module.css'
+import RefsDemo from './components/RefsDemo';
 
 function App() {
   return (
     <div className="App">
-      <ParentComp />
+      <RefsDemo />
+      {/* <ParentComp /> */}
       {/* <Table /> */}
       {/* <LifecycleA /> */}
       {/* <FragmentDemo /> */}
