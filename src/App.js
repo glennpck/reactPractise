@@ -15,13 +15,17 @@ import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 import './appStyles.css'
 import styles from './appStyles.module.css'
 
 function App() {
   return (
     <div className="App">
-      <LifecycleA />
+      <Table />
+      {/* <LifecycleA /> */}
+      {/* <FragmentDemo /> */}
       {/* <Form /> */}
       {/* <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1> */}
