@@ -13,12 +13,14 @@ import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
+import Form from './components/Form';
 import './appStyles.css'
 import styles from './appStyles.module.css'
 
 function App() {
   return (
     <div className="App">
+      <Form />
       {/* <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1> */}
       {/* <Inline /> */}
