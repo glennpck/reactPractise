@@ -22,11 +22,13 @@ import ParentComp from './components/ParentComp';
 import './appStyles.css'
 import styles from './appStyles.module.css'
 import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
 
 function App() {
   return (
     <div className="App">
-      <RefsDemo />
+      <FocusInput />
+      {/* <RefsDemo /> */}
       {/* <ParentComp /> */}
       {/* <Table /> */}
       {/* <LifecycleA /> */}
