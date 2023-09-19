@@ -24,11 +24,24 @@ import styles from './appStyles.module.css'
 import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
 import FRParentInput from './components/FRParentInput';
+import PortalDemo from './components/PortalDemo';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
 
 function App() {
   return (
     <div className="App">
-      <FRParentInput />
+      <ErrorBoundary>
+        <Hero heroName='batman' />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName='superman' />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName='Joker' />
+      </ErrorBoundary>
+      {/* <PortalDemo /> */}
+      {/* <FRParentInput /> */}
       {/* <FocusInput /> */}
       {/* <RefsDemo /> */}
       {/* <ParentComp /> */}
