@@ -33,12 +33,17 @@ import ClickCounter2 from './components/ClickCounter2';
 import HoverCounter2 from './components/HoverCounter2';
 import User from './components/User';
 import Counterer from './components/Counterer';
+import ComponentD from './components/ComponentD';
+import { UserProvider } from './components/userContext';
 
 function App() {
   return (
     <div className="App">
-      <Counterer render={(count, incrementCount) => <ClickCounter2 count={count} incrementCount={incrementCount}></ClickCounter2>}/>
-      <Counterer render={(count, incrementCount) => <HoverCounter2 count={count} incrementCount={incrementCount}></HoverCounter2>}/>
+      <UserProvider value='nnelg'>
+        <ComponentD />
+      </UserProvider>
+      {/* <Counterer render={(count, incrementCount) => <ClickCounter2 count={count} incrementCount={incrementCount}></ClickCounter2>}/>
+      <Counterer render={(count, incrementCount) => <HoverCounter2 count={count} incrementCount={incrementCount}></HoverCounter2>}/> */}
       {/* <ClickCounter2 />
       <HoverCounter2 />
       <User render={(isLoggedIn) => isLoggedIn ? "nnelg": "Guest"}/> */}
