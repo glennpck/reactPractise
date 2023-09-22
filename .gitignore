@@ -1,0 +1,69 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/reactBasic/node_modules
+/reactBasic/.pnp
+/reactBasic/.pnp.js
+
+# testing
+/reactBasic/coverage
+
+# production
+/reactBasic/build
+
+# misc
+/reactBasic/.DS_Store
+/reactBasic/.env.local
+/reactBasic/.env.development.local
+/reactBasic/.env.test.local
+/reactBasic/.env.production.local
+
+/reactBasic/npm-debug.log*
+/reactBasic/yarn-debug.log*
+/reactBasic/yarn-error.log*
+
+# dependencies
+/reacthook/node_modules
+/reacthook/.pnp
+/reacthook/.pnp.js
+
+# testing
+/reacthook/coverage
+
+# production
+/reacthook/build
+
+# misc
+/reacthook/.DS_Store
+/reacthook/.env.local
+/reacthook/.env.development.local
+/reacthook/.env.test.local
+/reacthook/.env.production.local
+
+/reacthook/npm-debug.log*
+/reacthook/yarn-debug.log*
+/reacthook/yarn-error.log*
+
+
+# dependencies
+/reacthttp/node_modules
+/reacthttp/.pnp
+/reacthttp/.pnp.js
+
+# testing
+/reacthttp/coverage
+
+# production
+/reacthttp/build
+
+# misc
+/reacthttp/.DS_Store
+/reacthttp/.env.local
+/reacthttp/.env.development.local
+/reacthttp/.env.test.local
+/reacthttp/.env.production.local
+
+/reacthttp/npm-debug.log*
+/reacthttp/yarn-debug.log*
+/reacthttp/yarn-error.log*
+
