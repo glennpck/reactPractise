@@ -1,26 +1,26 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/reactBasic/node_modules
-/reactBasic/.pnp
-/reactBasic/.pnp.js
+/reactbasic/node_modules
+/reactbasic/.pnp
+/reactbasic/.pnp.js
 
 # testing
-/reactBasic/coverage
+/reactbasic/coverage
 
 # production
-/reactBasic/build
+/reactbasic/build
 
 # misc
-/reactBasic/.DS_Store
-/reactBasic/.env.local
-/reactBasic/.env.development.local
-/reactBasic/.env.test.local
-/reactBasic/.env.production.local
+/reactbasic/.DS_Store
+/reactbasic/.env.local
+/reactbasic/.env.development.local
+/reactbasic/.env.test.local
+/reactbasic/.env.production.local
 
-/reactBasic/npm-debug.log*
-/reactBasic/yarn-debug.log*
-/reactBasic/yarn-error.log*
+/reactbasic/npm-debug.log*
+/reactbasic/yarn-debug.log*
+/reactbasic/yarn-error.log*
 
 # dependencies
 /reacthook/node_modules
