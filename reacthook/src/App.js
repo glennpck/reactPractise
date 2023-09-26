@@ -20,6 +20,7 @@ import ComponentI from './components/ComponentI';
 import DataFetching1 from './components/DataFetching1';
 import DataFetching2 from './components/DataFetching2';
 import NewCounter from './components/NewCounter';
+import FocusInput from './components/FocusInput';
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -45,7 +46,8 @@ function App() {
   return (
     // <CountContext.Provider value={{countState: count, countDispatch: dispatch}}>
     <div className="App">
-      <NewCounter />
+      <FocusInput />
+      {/* <NewCounter /> */}
       {/* <DataFetching2 /> */}
       {/* <DataFetching1 /> */}
       {/* Count - {count}
