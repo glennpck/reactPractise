@@ -27,6 +27,7 @@ import DocTitleOne from './components/DocTitleOne';
 import DocTitleTwo from './components/DocTitleTwo';
 import SpecialCounter from './components/SpecialCounter';
 import SpecialCounter2 from './components/SpecialCounter2';
+import UserForm from './components/UserForm';
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -52,8 +53,9 @@ function App() {
   return (
     // <CountContext.Provider value={{countState: count, countDispatch: dispatch}}>
     <div className="App">
-      <SpecialCounter />
-      <SpecialCounter2 />
+      <UserForm />
+      {/* <SpecialCounter />
+      <SpecialCounter2 /> */}
       {/* <DocTitleTwo />
       <DocTitleOne /> */}
       {/* <HookTimer /> */}
