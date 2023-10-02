@@ -67,3 +67,29 @@
 /reacthttp/yarn-debug.log*
 /reacthttp/yarn-error.log*
 
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/reactrender/node_modules
+/reactrender/.pnp
+/reactrender/.pnp.js
+
+# testing
+/reactrender/coverage
+
+# production
+/reactrender/build
+
+# misc
+/reactrender/.DS_Store
+/reactrender/.env.local
+/reactrender/.env.development.local
+/reactrender/.env.test.local
+/reactrender/.env.production.local
+
+/reactrender/npm-debug.log*
+/reactrender/yarn-debug.log*
+/reactrender/yarn-error.log*
+
+
