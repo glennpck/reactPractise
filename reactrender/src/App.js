@@ -11,11 +11,13 @@ import Grandparent from './components/Optimization/Grandparent';
 import ParentTwo from './components/Optimization/ParentTwo';
 import ParentThree from './components/IncorrectOptimization/ParentThree';
 import ParentFour from './components/IncorrectOptimization/ParentFour';
+import { ContextParent } from './components/Context/ContextParent';
 
 function App() {
   return (
     <div className="App">
-      <ParentFour />
+      <ContextParent />
+      {/* <ParentFour /> */}
       {/* <ParentThree /> */}
       {/* <ParentTwo /> */}
       {/* <Grandparent /> */}
